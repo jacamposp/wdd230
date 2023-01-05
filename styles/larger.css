@@ -1,0 +1,44 @@
+:root {
+    --white: #fff;
+    --black: #000;
+    --esmerald: #21A0A0;
+    --grey: #ddd;
+    --light-grey: #f5f5f5;
+}
+
+/* Larger CSS */
+@media only screen and (min-width: 600px) {
+
+    nav {
+        flex-direction: row-reverse;
+    }
+
+    .avatar {
+        margin-left: 20px;
+        align-self: center;
+        margin-bottom: 14px;
+        position: absolute; 
+    }
+
+    main {
+        height: 67vh;
+    }
+
+    .title-center h2 {
+        top: -1.4em;
+    }
+    
+    .items {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    .card {
+        flex: 0 0 32%;
+    }
+    
+    .card-container {
+        height: 250px;
+    }
+    
+}
