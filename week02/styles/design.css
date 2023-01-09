@@ -1,0 +1,71 @@
+body {
+	font-family: Roboto, helvetica, sans-serif;
+}
+
+header,
+main,
+footer {
+	max-width: 760px;
+	margin: 0 auto;
+}
+
+marquee {
+	padding: 1rem;
+	background-color: #eee;
+}
+
+h1 {
+	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+main {
+	display: grid;
+    grid-template-columns: 1fr 20%;
+    grid-template-rows: 50px 1fr auto 20px;
+    grid-template-areas: 
+    'title title'
+    'article list'
+    'callout callout'
+    'footer footer';
+}
+
+.title {
+    grid-area: title;
+}
+
+.article {
+    grid-area: article;
+    padding: 20px;
+}
+
+.list {
+    grid-area: list;
+    padding: 20px;
+}
+
+h2 {
+	color: navy;
+	text-align: left;
+}
+
+article p {
+	text-align: justify;
+}
+
+.banner {
+    color: black;
+    background:  rgb(230, 243, 254);
+    padding: 10px;
+}
+.callout {
+	background-color: rgb(205, 205, 205);
+    padding: 10px;
+    grid-area: callout;
+}
+
+footer {
+	margin-top: 1rem;
+	border-top: 1px solid rgba(0, 0, 0, 0.1);
+	font-size: smaller;
+	text-align: left;
+}
