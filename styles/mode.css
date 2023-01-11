@@ -1,0 +1,21 @@
+.dark.is-active {
+    height: 24px;
+    width: 24px;
+    cursor: pointer;
+    display: inline;
+}
+
+.dark {
+    display: none;
+}
+
+.light.is-active {
+    height: 24px;
+    width: 24px;
+    cursor: pointer;
+    display: inline;
+}
+
+.light {
+    display: none;
+}

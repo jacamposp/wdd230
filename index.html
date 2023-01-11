@@ -10,9 +10,12 @@
     <meta property="og:title" content="Joel Campos portal">
     <meta property="og:type" content="article" />
     <meta property="og:description" content="Showing different skills and tools learned">
-    <meta property="og:image" content="https://ithemes.com/wp-content/uploads/2019/08/What-is-Your-Website-Design-Process-Blog-Post-Feature-Image-36119-01-1024x537.png">
+    <meta property="og:image"
+        content="https://ithemes.com/wp-content/uploads/2019/08/What-is-Your-Website-Design-Process-Blog-Post-Feature-Image-36119-01-1024x537.png">
     <meta property="og:url" content="https://jacamposp.github.io/wdd230/">
     <link rel="shortcut icon" href="/wdd230/icons/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styles/hamburger.css">
+    <link rel="stylesheet" href="styles/mode.css">
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/larger.css">
@@ -21,9 +24,17 @@
 
 <body>
     <nav>
-        <img class="hamburger-icon" src="icons/hamburger-icon.svg" alt="hamburger icon">
-        <a href="https://www.linkedin.com/in/joel-campos-porras-429b261b8/">LinkedIn</a>
-        <a href="byui.edu">BYU - Idaho</a>
+        <div class="hamburger" id="hamburger-1">
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>
+        </div>
+        <a class="menu-item" href="https://www.linkedin.com/in/joel-campos-porras-429b261b8/">LinkedIn</a>
+        <a class="menu-item" href="https://www.byui.edu/">BYU - Idaho</a>
+        <div class="mode">
+            <img class="dark is-active" src="images/dark-mode.png" alt="dark mode button">
+            <img class="light" src="images/light-mode.png" alt="light mode button">
+        </div>
     </nav>
     <header>
         <img class="avatar" src="images/Imagen.png" alt="Joel Campos memoji">
@@ -38,8 +49,11 @@
                 <div class="card-container">
                     <h3>Learning Activities</h3>
                     <ul>
-                        <li>Week 01: <a href="a">Grail</a> | <a href="">Media Query</a></li>
-                        <li>Week 02: <a href="https://codepen.io/jacamposp/pen/rNryooa" target="_blank">Hamburger Menu</a> | <a href="https://jacamposp.github.io/wdd230/week02/design.html">Design Principles</a> | <a href="https://jacamposp.github.io/wdd230/week02/bom.html">BOM</a></li>
+                        <li>Week 01: <a href="https://jacamposp.github.io/wdd230/week01/holygrail.htmll">Grail</a> | <a href="">Media Query</a></li>
+                        <li>Week 02: <a href="https://codepen.io/jacamposp/pen/rNryooa" target="_blank">Hamburger
+                                Menu</a> | <a href="https://jacamposp.github.io/wdd230/week02/design.html">Design
+                                Principles</a> | <a href="https://jacamposp.github.io/wdd230/week02/bom.html">BOM</a>
+                        </li>
                         <li>Week 03:</li>
                         <li>Week 04:</li>
                         <li>Week 05:</li>
@@ -69,7 +83,9 @@
         </p>
         <p id="lastModified" class="highlight"></p>
     </footer>
-    <script type="text/javascript" src="scripts/getDates.js"></script>
+    <script src="scripts/mode.js"></script>
+    <script src="scripts/hamburger.js"></script>
+    <script src="scripts/getDates.js"></script>
 </body>
 
 </html>
