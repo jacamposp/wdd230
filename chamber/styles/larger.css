@@ -1,0 +1,51 @@
+@media only screen and (min-width: 760px) {
+    .menu {
+        display: flex;
+        flex-direction: row;
+        justify-content: end;
+        gap: 30px;
+    }
+
+    .company-container {
+        grid-area: company;
+        display: flex;
+        flex-direction: row;
+        gap: 25px;
+    }
+
+    .herobanner-content span {
+        font-family: var(--raleway-herobanner);
+        font-size: xx-large;
+        color: var(--white);
+    }
+    
+    .herobanner-content strong {
+        font-size: xxx-large;
+    }
+
+    .cards-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-areas:
+        'events events weather'
+        'company company company';
+        grid-gap: 30px;
+        margin: 40px;
+    }
+
+    .footer-container {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .footer-logo-name{
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+    }
+
+    .footer-data {
+        gap: 20px;
+    }
+}
