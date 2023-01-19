@@ -32,15 +32,26 @@
         <a class="menu-item" href="https://www.linkedin.com/in/joel-campos-porras-429b261b8/">LinkedIn</a>
         <a class="menu-item" href="https://www.byui.edu/">BYU - Idaho</a>
         <div class="mode">
-            <img class="dark is-active" src="images/dark-mode.png" alt="dark mode button">
-            <img class="light" src="images/light-mode.png" alt="light mode button">
+            <img class="dark is-active" src="images/dark-mode.webp" alt="dark mode button">
+            <img class="light" src="images/light-mode.webp" alt="light mode button">
         </div>
     </nav>
     <header>
-        <img class="avatar" src="images/Imagen.png" alt="Joel Campos memoji">
+        <img class="avatar" src="images/Imagen.webp" alt="Joel Campos memoji">
         <h1 class="name">Joel Campos Porras</h1>
     </header>
     <main>
+        <div class="hero">
+            <picture>
+                <source media="(max-width: 400px)" srcset="images/costa-rica-temple-mobile.webp">
+                <source media="(min-width: 401px) and (max-width: 960px)"
+                    srcset="images/costa-rica-temple-desktop.webp">
+                <img src="images/costa-rica-temple-desktop.webp" alt="Costa Rica temple image">
+            </picture>
+            <div class="herolabel">
+                <p>Costa Rica Temple</p>
+            </div>
+        </div>
         <div class="title-center">
             <h2>WDD 230: Course Activity Portal</h2>
         </div>
@@ -49,12 +60,16 @@
                 <div class="card-container">
                     <h3>Learning Activities</h3>
                     <ul>
-                        <li>Week 01: <a href="https://jacamposp.github.io/wdd230/week01/holygrail.html">Grail</a> | <a href="">Media Query</a></li>
+                        <li>Week 01: <a href="https://jacamposp.github.io/wdd230/week01/holygrail.html">Grail</a> | <a
+                                href="">Media Query</a></li>
                         <li>Week 02: <a href="https://codepen.io/jacamposp/pen/rNryooa" target="_blank">Hamburger
                                 Menu</a> | <a href="https://jacamposp.github.io/wdd230/week02/design.html">Design
                                 Principles</a> | <a href="https://jacamposp.github.io/wdd230/week02/bom.html">BOM</a>
                         </li>
-                        <li>Week 03: <a href="week03/images/landscape.webp">WebP</a> | <a href="week03/lazyload.html">Lazyload</a> | <a href="https://codepen.io/jacamposp/pen/yLqPVNv">Responsive Images</a> | <a href="week03/bom.html">localStorage</a></li>
+                        <li>Week 03: <a href="week03/images/landscape.webp">WebP</a> | <a
+                                href="week03/lazyload.html">Lazyload</a> | <a
+                                href="https://codepen.io/jacamposp/pen/yLqPVNv">Responsive Images</a> | <a
+                                href="week03/bom.html">localStorage</a></li>
                         <li>Week 04:</li>
                         <li>Week 05:</li>
                         <li>Week 06:</li>
@@ -78,8 +93,8 @@
     </main>
     <footer>
         <p class="footer-info">
-            ©<span id="year"></span><img class="sloth" src="images/sloth.png" alt=""><span id="name"></span> <img
-                class="flag" src="images/cr-flag.png" alt=""><span id="country"></span>
+            ©<span id="year"></span><img class="sloth" src="images/sloth.webp" alt=""><span id="name"></span> <img
+                class="flag" src="images/cr-flag.webp" alt=""><span id="country"></span>
         </p>
         <p id="lastModified" class="highlight"></p>
     </footer>

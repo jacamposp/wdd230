@@ -26,6 +26,7 @@ header {
 }
 
 .name {
+    text-align: center;
     margin: auto;
     color: var(--white);
 }
@@ -62,12 +63,37 @@ nav a:hover {
 }
 
 main {
-    padding: 1rem 2rem;
     max-width: 760px;
-    margin: auto;
+    margin: 0 auto;
+}
+
+.hero {
+    position: relative;
+}
+
+.herolabel {
+    position: absolute;
+    top: 60px;
+    left: 30px;
+    background: #1d2b64;
+    border: 1px solid rgba(0, 0, 0, .75);
+    padding: 10px;
+    box-shadow: 0 0 3rem #fff;
+    opacity: 0.75;
+}
+
+.herolabel p {
+    color: var(--white);
+}
+
+picture img {
+    width: 100%;
+    max-width: 960px;
+    height: auto;
 }
 
 .items {
+    padding: 1rem 2rem;
     display: flex;
     flex-direction: column;
     gap: 1em;

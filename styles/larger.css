@@ -20,10 +20,6 @@
         position: absolute; 
     }
 
-    main {
-        height: 67vh;
-    }
-
     .title-center h2 {
         top: -1.4em;
     }
