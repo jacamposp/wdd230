@@ -178,6 +178,16 @@ footer {
     margin: 0 8px;
 }
 
-.test {
-    display: flex;
+img {
+    animation: fade 1.5s;
+
+}
+@keyframes fade {
+    0%{
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+    
 }
