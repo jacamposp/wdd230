@@ -24,16 +24,16 @@
 
 <body>
     <nav>
-        <div class="hamburger" id="hamburger-1">
-            <span class="line"></span>
-            <span class="line"></span>
-            <span class="line"></span>
-        </div>
+        <button class="mode">
+            <img class="dark is-active" src="images/dark-mode.webp" alt="dark mode on"  loading="lazy">
+            <img class="light" src="images/light-mode.webp" alt="dark mode off" loading="lazy">
+        </button>
         <a class="menu-item" href="https://www.linkedin.com/in/joel-campos-porras-429b261b8/">LinkedIn</a>
         <a class="menu-item" href="https://www.byui.edu/">BYU - Idaho</a>
-        <div class="mode">
-            <img class="dark is-active" src="images/dark-mode.webp" alt="dark mode button" loading="lazy">
-            <img class="light" src="images/light-mode.webp" alt="light mode button" loading="lazy">
+        <div class="hamburger" id="hamburger-1" tabindex="0">
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>
         </div>
     </nav>
     <header>
@@ -46,7 +46,7 @@
                 <source media="(max-width: 400px)" srcset="images/costa-rica-temple-mobile.webp">
                 <source media="(min-width: 401px) and (max-width: 960px)"
                     srcset="images/costa-rica-temple-desktop.webp">
-                <img src="images/costa-rica-temple-desktop.webp" alt="Costa Rica temple image" width="100%"
+                <img src="images/costa-rica-temple-desktop.webp" alt="Costa Rica temple" width="100%"
                     height="100%" loading="lazy">
             </picture>
             <div class="herolabel">
@@ -72,9 +72,6 @@
                                     href="week03/lazyload.html">Lazyload</a> | <a
                                     href="https://codepen.io/jacamposp/pen/yLqPVNv">Responsive Images</a> | <a
                                     href="week03/bom.html">localStorage</a></li>
-                            <li>Week 04:</li>
-                            <li>Week 05:</li>
-                            <li>Week 06:</li>
                         </ul>
                 </div>
             </section>
@@ -119,7 +116,7 @@
                         }
                     </style>
                 </div>
-            </div><iframe src="" frameborder="0"></iframe>
+            </div>
         </div>
     </main>
     <footer>

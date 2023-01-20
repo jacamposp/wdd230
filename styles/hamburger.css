@@ -1,3 +1,8 @@
+.hamburger {
+    background: none;
+    border: none;
+}
+
 .hamburger .line {
     width: 40px;
     height: 5px;
@@ -45,6 +50,8 @@
 
 .mode {
     display: none;
+    background: none;
+    border: none;
 }
 
 .mode.is-active{
