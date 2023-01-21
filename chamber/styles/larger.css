@@ -48,4 +48,8 @@
     .footer-data {
         gap: 20px;
     }
+
+    .footer-info {
+        font-size: 1em;
+    }
 }
