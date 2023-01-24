@@ -213,7 +213,6 @@ hr {
     display: inline-block;
     margin: 8px 8px 8px 60px;
     max-width: 300px;
-    perspective: 1000;
     position: relative;
     text-align: left;
     transition: all 0.3s 0s ease-in;
@@ -319,7 +318,7 @@ span.right {
 }
 
 .card-flap {
-    background: darken(var(--grey), 15);
+    background: var(--grey);
     position: absolute;
     width: 100%;
     transform-origin: top;
@@ -523,7 +522,7 @@ footer {
 
 .footer-container {
     display: flex;
-    flex-direction: clo;
+    flex-direction: column;
     justify-content: center;
     gap: 16%;
 }
