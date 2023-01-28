@@ -73,9 +73,8 @@
                                 href="https://codepen.io/jacamposp/pen/yLqPVNv">Responsive Images</a> | <a
                                 href="week03/bom.html">localStorage</a></li>
                         <li>Week 04: <a href="https://codepen.io/jacamposp/pen/XWBEBgy">Pseudo-class</a> | <a
-                                href="images/cssCombinators.png">CSS Combinators</a> | <a
-                                href="week04/tablebuild.html"> HTML Table</a> | <a
-                                href="week03/bom.html">localStorage</a></li>
+                                href="images/cssCombinators.png">CSS Combinators</a> | <a href="week04/tablebuild.html">
+                                HTML Table</a> | <a href="week03/bom.html">localStorage</a></li>
                     </ul>
                 </div>
             </section>
@@ -122,6 +121,77 @@
                 </div>
             </div>
         </div>
+        <div class="contact-container">
+            <form id="myForm" onsubmit="alert('stop submit'); return false;">
+                <div id="formmessage"></div>
+                <div class="contact-form">
+                    <h3 class="contact-form-title">Contact Us</h3>
+                    <p class="contact-form-text">Send us a message and we'll get back to you as soon as we can!</p>
+                    <div class="form">
+                        <div class="inputBox">
+                            <input type="text" id="name" required><label>Name</label>
+                        </div>
+                        <div class="inputBox">
+                            <input type="email" id="email" required><label>Email</label>
+                        </div>
+                        <div class="inputBox">
+                            <input type="range" id="range" min="1" max="10" name="range">
+                            <label>Page Rating [ <span id="rating"></span> ]:</label>
+                            <div class="ratinglabels">
+                                <span class="ratevalue">1</span>
+                                <span class="ratevalue">2</span>
+                                <span class="ratevalue">3</span>
+                                <span class="ratevalue">4</span>
+                                <span class="ratevalue">5</span>
+                                <span class="ratevalue">6</span>
+                                <span class="ratevalue">7</span>
+                                <span class="ratevalue">8</span>
+                                <span class="ratevalue">9</span>
+                                <span class="ratevalue">10</span>
+                            </div>
+                        </div>
+                        <div class="inputBox">
+                            <input type="password" id="Username" pattern="[a-zA-Z0-9]{2,12}"
+                                required><label>Username</label>
+                        </div>
+                        <div class="inputBox">
+                            <input type="password" id="UsernameConfirm" required><label>Re-enter Username</label>
+                        </div>
+                        <input id="btnSubmit" type="button" value="Send Message">
+                    </div>
+                </div>
+            </form>
+        </div>
+        <table class="not-showing">
+            <caption>HTML Table Output</caption>
+            <thead>
+                <tr>
+                    <th colspan="4" scope="colgroup">Form Input</th>
+                </tr>
+                <tr>
+                    <th scope="col">Field</th>
+                    <th scope="col">Value</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Name:</td>
+                    <td id="nameTable"></td>
+                </tr>
+                <tr>
+                    <td>Email:</td>
+                    <td id="emailTable"></td>
+                </tr>
+                <tr>
+                    <td>Rating:</td>
+                    <td id="ratingTable"></td>
+                </tr>
+                <tr>
+                    <td>Username:</td>
+                    <td id="userTable"></td>
+                </tr>
+            </tbody>
+        </table>
     </main>
     <footer>
         <p class="footer-info">
@@ -135,6 +205,7 @@
     <script src="scripts/hamburger.js"></script>
     <script src="scripts/getDates.js"></script>
     <script src="scripts/visitors.js"></script>
+    <script src="scripts/form.js"></script>
 </body>
 
 </html>
