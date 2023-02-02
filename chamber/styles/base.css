@@ -571,7 +571,7 @@ footer {
 
 #feedback {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     gap: 20px;
     max-width: 850px;
     margin: auto;
@@ -618,10 +618,7 @@ footer {
 }
 
 .membership {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    margin-top: 4%;
+    display: none;
 }
 
 .form-card {
