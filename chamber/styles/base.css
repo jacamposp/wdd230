@@ -561,6 +561,85 @@ footer {
     gap: 5px;
 }
 
+/*************************** CCONTACT US PAGE *****************************************/
+#contactUS {
+    background-image: url('../images/meeting-room.jpg');
+    background-size: cover;
+    position: relative;
+    height: 90vh;
+}
+
+#feedback {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    max-width: 850px;
+    margin: auto;
+}   
+
+.form-container {
+    background-color: var(--white);
+    height: auto;
+    padding: 20px 40px;
+    border-top: 8px solid var(--primary);
+    margin-top: 4%;
+}
+
+
+.form-title {
+    margin: 0;
+    text-align: start;
+}
+
+.form-fields {
+    list-style-type: none;
+    padding: 0;
+    text-align: start;
+}
+
+.field {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.field-label {
+    color: #4d4d4d;
+    font-size: 17px;
+    text-transform: uppercase;
+    line-height: 20px;
+}
+
+.form-fields input {
+    border: 1px solid #bfbaba;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    line-height: 20px;
+}
+
+.membership {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 4%;
+}
+
+.form-card {
+    background-color: var(--tertiary);
+    border: 2px solid var(--black);
+    text-align: center;
+    padding: 10px;
+}
+
+.form-button {
+    margin: 10px auto;
+    display: flex;
+    background-color: var(--primary);
+    color: var(--white);
+    border: none;
+    padding: 10px;
+    text-align: center;
+}
 @keyframes fade {
     0%{
         opacity: 0;
