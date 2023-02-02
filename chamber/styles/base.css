@@ -569,6 +569,12 @@ footer {
     height: 90vh;
 }
 
+#contactUS h1 {
+    margin: 0;
+    text-align: center;
+    color: var(--black);
+}
+
 #feedback {
     display: grid;
     grid-template-columns: 1fr;
