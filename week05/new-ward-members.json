@@ -1,0 +1,11 @@
+{
+    "family_name": "Campos",
+    "move_to_ward_date": "2008",
+    "number_of_members": 4,
+    "bishop_visit": true,
+    "family_members": [
+      {"name" : "Ale", "Gender" : "F", "birthdate" : "june"},
+      {"name" : "Roy", "Gender" : "M", "birthdate" : "december"},
+      {"name" : "Joel", "Gender" : "M", "birthdate" : "November"}
+    ]
+  }
