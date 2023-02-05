@@ -59,24 +59,6 @@
         <div class="items">
             <section class="card">
                 <div class="card-container">
-                    <h3>Learning Activities</h3>
-                    <ul>
-                        <li>Week 01: <a href="https://jacamposp.github.io/wdd230/week01/holygrail.html">Grail</a> |
-                            <a href="#">Media Query</a>
-                        </li>
-                        <li>Week 02: <a href="https://codepen.io/jacamposp/pen/rNryooa" target="_blank">Hamburger
-                                Menu</a> | <a href="https://jacamposp.github.io/wdd230/week02/design.html">Design
-                                Principles</a> | <a href="https://jacamposp.github.io/wdd230/week02/bom.html">BOM</a>
-                        </li>
-                        <li>Week 03: <a href="week03/images/landscape.webp">WebP</a> | <a
-                                href="week03/lazyload.html">Lazyload</a> | <a
-                                href="https://codepen.io/jacamposp/pen/yLqPVNv">Responsive Images</a> | <a
-                                href="week03/bom.html">localStorage</a></li>
-                        <li>Week 04: <a href="https://codepen.io/jacamposp/pen/XWBEBgy">Pseudo-class</a> | <a
-                                href="images/cssCombinators.png">CSS Combinators</a> | <a href="week04/tablebuild.html">
-                                HTML Table</a> | <a href="week03/bom.html">localStorage</a></li>
-                        <li>Week 05: <a href="https://codepen.io/jacamposp/pen/MWBZdbE">CSS Pseudo-elements</a> | <a href="week05/new-ward-members.json">Json File</a> | <a href="week05/prophets.html">Fetch API</a> | <a href="week05/weather.html">Weather API</a></li>
-                    </ul>
                 </div>
             </section>
             <section class="card">
@@ -90,6 +72,13 @@
             <section class="card">
                 <div class="card-container">
                     <h3>Information</h3>
+                    <div>
+                        <figure>
+                            <img id="weather-icon" src="" alt="">
+                            <p id="weather"><span id="current-temp"></span></p>
+                            <figcaption></figcaption>
+                        </figure>
+                    </div>
                     <div>
                         <span>Visit Count: <span id="visitors"></span> </span>
                     </div>
@@ -207,6 +196,8 @@
     <script src="scripts/getDates.js"></script>
     <script src="scripts/visitors.js"></script>
     <script src="scripts/form.js"></script>
+    <script src="scripts/weather.js"></script>
+    <script src="scripts/activities.js"></script>
 </body>
 
 </html>

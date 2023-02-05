@@ -1,0 +1,76 @@
+{
+    "week01": [
+        {
+            "url": "https://jacamposp.github.io/wdd230/week01/holygrail.html",
+            "text": "Grail"
+        },
+        {
+            "url": "#",
+            "text": "Media Query"
+        }
+    ],
+    "week02": [
+        {
+            "url": "https://codepen.io/jacamposp/pen/rNryooa",
+            "text": "Hamburger Menu"
+        },
+        {
+            "url": "https://jacamposp.github.io/wdd230/week02/design.html",
+            "text": "Design Principles"
+        },
+        {
+            "url": "https://jacamposp.github.io/wdd230/week02/bom.html",
+            "text": "BOM"
+        }
+    ],
+    "week03": [
+        {
+            "url": "week03/images/landscape.webp",
+            "text": "WebP"
+        },
+        {
+            "url": "week03/lazyload.html",
+            "text": "Lazyload"
+        },
+        {
+            "url": "https://codepen.io/jacamposp/pen/yLqPVNv",
+            "text": "Responsive Images"
+        },
+        {
+            "url": "week03/bom.html",
+            "text": "localStorage"
+        }
+    ],
+    "week04": [
+        {
+            "url": "https://codepen.io/jacamposp/pen/XWBEBgy",
+            "text": "Pseudo-class"
+        },
+        {
+            "url": "images/cssCombinators.png",
+            "text": "CSS Combinators"
+        },
+        {
+            "url": "week04/tablebuild.html",
+            "text": "HTML Table"
+        }
+    ],
+    "week05": [
+        {
+            "url": "https://codepen.io/jacamposp/pen/XWBEBgy",
+            "text": "CSS Pseudo-elements"
+        },
+        {
+            "url": "images/cssCombinators.png",
+            "text": "Json File"
+        },
+        {
+            "url": "week04/tablebuild.html",
+            "text": "Fetch API"
+        },
+        {
+            "url": "week05/weather.html",
+            "text": "Weather API"
+        }
+    ]
+}
