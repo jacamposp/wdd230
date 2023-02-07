@@ -1,0 +1,76 @@
+{
+    "companies" : [
+        {
+            "name" : "3M",
+            "address" : "Minnesota",
+            "phone" : "+1 888-364-3577",
+            "website" : "3M.com",
+            "image" : "../chamber/images/3M.png",
+            "level" : "Gold",
+            "business" : "Industry"
+        },
+        {
+            "name" : "Apple",
+            "address" : "California",
+            "phone" : "+1 758-364-7756",
+            "website" : "apple.com",
+            "image" : "../chamber/images/apple.webp",
+            "level" : "Gold",
+            "business" : "Technology"
+        },
+        {
+            "name" : "Nvidia",
+            "address" : "California",
+            "phone" : "+1 888-364-3577",
+            "website" : "nvidia.com",
+            "image" : "../chamber/images/nvidia.png",
+            "level" : "Silver",
+            "business" : "Technology"
+        },
+        {
+            "name" : "Hilton",
+            "address" : "McLean",
+            "phone" : "+1 408-996-1010",
+            "website" : "hilton.com",
+            "image" : "../chamber/images/Hilton.png",
+            "level" : "Silver",
+            "business" : "Turism"
+        },
+        {
+            "name" : "American Express",
+            "address" : "California",
+            "phone" : "+1 788-364-3577",
+            "website" : "americanexpress.com",
+            "image" : "../chamber/images/amex.png",
+            "level" : "Bronze",
+            "business" : "Bank"
+        },
+        {
+            "name" : "BMW",
+            "address" : "Munich",
+            "phone" : "+1 888-364-3277",
+            "website" : "bmw.com",
+            "image" : "../chamber/images/BMW.png",
+            "level" : "Gold",
+            "business" : "Automotive"
+        },
+        {
+            "name" : "Dell",
+            "address" : "Texas",
+            "phone" : "+1 888-364-3677",
+            "website" : "dell.com",
+            "image" : "../chamber/images/dell.png",
+            "level" : "Gold",
+            "business" : "Technology"
+        },
+        {
+            "name" : "Swarovski",
+            "address" : "New York",
+            "phone" : "+1 888-364-6655",
+            "website" : "swarovski.com",
+            "image" : "../chamber/images/swarovski.png",
+            "level" : "Silver",
+            "business" : "Jewelry"
+        }
+    ]
+}
