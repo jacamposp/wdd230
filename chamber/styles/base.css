@@ -689,7 +689,7 @@ footer {
 
 .members-container .heading {
     font-weight: 600;
-    color: rgb(88, 87, 87);
+    color: var(--black);
     padding: 7px;
 }
 
