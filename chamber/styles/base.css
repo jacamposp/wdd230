@@ -55,6 +55,14 @@ main {
     position: relative;
 }
 
+.not-visible{
+    display: none;
+}
+
+.not-visible{
+    display: block;
+}
+
 /**************************** MAIN SECTION INDEX *****************************************/
 .hero-container {
     max-height: 700px;
@@ -104,7 +112,7 @@ main {
 }
 
 .cta-button {
-    max-width: 120px;
+    max-width: 80px;
     background-color: #0066ff;
     border-radius: 5px;
     border: 1px solid #0066ff;
@@ -115,16 +123,40 @@ main {
     font-size: 17px;
     padding: 16px 31px;
     text-decoration: none;
+    text-align: center;
 }
 
 .cta-button:hover {
     background-color: #0359db;
 }
 
-.cta-button:active {
-    position: relative;
-    top: 1px;
+.banner {
+    width: 100%;
+    padding: 60px 0;
+    text-align: center;
+    background: var(--primary);
+    color: white;
 }
+
+
+.btn-bgstroke {
+    font-size: 20px;
+    display: inline-block;
+    border: 1px solid white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 300;
+    margin-top: 30px;
+    text-decoration: none;
+    color: var(--white);
+}
+
+.btn-bgstroke:hover {
+    background-color: white;
+    color: var(--primary);
+}
+
 
 .cards-container {
     display: grid;
@@ -168,7 +200,17 @@ hr {
 
 .weather-info {
     display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.weather-info-container {
+    display: flex;
     flex-direction: column;
+}
+
+.weather-info-container p {
+    margin: 2px 0;
 }
 
 .company-container {

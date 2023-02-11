@@ -42,15 +42,20 @@
     <main>
         <section class="hero-container">
             <div class="herobanner">
-               <img class="herobanner-image" src="images/puerto.webp" alt="Photo of people in meeting">
+                <img class="herobanner-image" src="images/puerto.webp" alt="Photo of people in meeting">
                 <div class="herobanner-content">
                     <h1>
                         <span>Learn about our</span>
                         <span><strong>plans</strong> and <strong>benefits</strong></span>
-                        <button class="cta-button">Join us</button>
+                        <a class="cta-button" href="join.html">Join us</a>
                     </h1>
                 </div>
             </div>
+        </section>
+        <section class="banner">
+            <h1>Come meet us</h1>
+            <p>Meetings on Wednesdays at 7:00 p.m.</p>
+            <a class="btn-bgstroke" href="join.html">Let's talk</a>
         </section>
         <section class="cards-container">
             <div class="events-container">
@@ -63,35 +68,19 @@
             <div class="weather-container">
                 <h2>Weather</h2>
                 <hr>
-                <div class="weather-info">
-                    <span> 33°C</span>
-                    <span>Partly Cloudy</span>
-                    <span>Humidity: 35%</span>
-                    <span>Wind Chill: N/A</span>
-                </div>
+                <figure class="weather-info-container">
+                    <div class="weather-info">
+                        <img id="weather-icon" src="" alt="">
+                        <div>
+                            <p id="weather"><span id="current-temp"></span></p>
+                            <figcaption></figcaption>
+                        </div>
+                    </div>
+                    <p id="humidity"><span id="current-humidity"></span></p>
+                    <p id="windSpeed"><span id="current-windSpeed"></span></p>
+                </figure>
             </div>
             <div class="company-container">
-                <div class="company card">
-                    <h3>Thankful Transport</h3>
-                    <p>"We get it there for you!"</p>
-                    <a href="mailto:hello@thankfultransport.com">hello@thankfultransport.com</a>
-                    <a href="tel:+999-9999-9999">+999-9999-9999</a>
-                    <a href="#">Website</a>
-                </div>
-                <div class="company card">
-                    <h3>Code Primera</h3>
-                    <p>After school coding!</p>
-                    <a href="mailto:contact@codeprimera.com">contact@codeprimera.com</a>
-                    <a href="tel:+999-9999-9999">+999-9999-9999</a>
-                    <a href="#">Website</a>
-                </div>
-                <div class="company card">
-                    <h3>Build A Treefort</h3>
-                    <p>Over 1000 Plans!</p>
-                    <a href="mailto:builda@treefort.com">builda@treefort.com</a>
-                    <a href="tel:+999-9999-9999">+999-9999-9999</a>
-                    <a href="#">Website</a>
-                </div>
             </div>
         </section>
     </main>
@@ -113,11 +102,14 @@
         </div>
         <hr>
         <div class="footer-data">
-                ©<span id="year"></span>|<span id="name"></span>|<span id="course"></span>|<span id="lastModified"></span>
+            ©<span id="year"></span>|<span id="name"></span>|<span id="course"></span>|<span id="lastModified"></span>
         </div>
     </footer>
     <script src="scripts/getDates.js"></script>
     <script src="scripts/hamburger.js"></script>
+    <script src="scripts/weather.js"></script>
+    <script src="scripts/advertisements.js"></script>
+    <script src="scripts/main.js"></script>
 </body>
 
 </html>
