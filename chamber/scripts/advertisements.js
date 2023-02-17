@@ -1,12 +1,19 @@
 const mainContainer = document.querySelector('.company-container');
+const urls = 'https://jacamposp.github.io/wdd230/chamber/data/members.json';
 
 async function getCompany() {
-    const response = await fetch('../chamber/data/members.json');
-    const data = await response.json();
-    //console.table(data.companies);
-
-    displayData(data.companies);
-
+    try {
+        const response = await fetch('../chamber/data/members.json');
+        if (response.ok) {
+            const data = await response.json();
+            //console.log(data); // testing only
+            displayData(data.companies); // uncomment when ready
+        } else {
+            throw Error(await response.text());
+        }
+    } catch (error) {
+        console.log(error);
+    }
 }
 
 function random_item(items) {

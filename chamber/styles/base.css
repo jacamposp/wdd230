@@ -59,7 +59,7 @@ main {
     display: none;
 }
 
-.not-visible{
+.visible{
     display: block;
 }
 
